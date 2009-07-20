@@ -1,0 +1,26 @@
+<!DOCTYPE PUBLIC "-//W3c//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="jradio.js"></script>
+  <script type="text/javascript">
+  <!--
+
+
+  
+  $(function(){
+    $.radio('radio').change(function(ui){
+      console.log('Radio button changed to ' + ui.val());
+    })
+  })
+  -->
+  </script>
+  <title>Test jRadio</title>
+  
+</head>
+<body>
+  <label>One: </label><input type="radio" name="radio" value="one"><br>
+  <label>Two: </label><input type="radio" name="radio" value="two">
+</body>
+</html>
